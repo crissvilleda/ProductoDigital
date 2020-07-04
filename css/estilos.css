@@ -1,3 +1,6 @@
+
+/*---- font*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 /* Variables Globales */
 :root{
 /*--- Colores */
@@ -9,6 +12,7 @@
 --space:10px;
 /*--- shadow*/
 --box: 0 0 2px rgb(112, 112, 112);
+--font: 'Open Sans', sans-serif;
 
 }
 
@@ -16,7 +20,7 @@ html, body {
   padding: 0px;
   margin: 0px;
   font-size: var(--normal);
-  font-family: 'Open Sans', 'sans-serif';
+  font-family: var(--font);
 }
 /*------------------- nav bar*/
 nav {
@@ -81,4 +85,18 @@ nav li a{
 .content-image{
   max-height: 150px;
   text-align: center;
+}
+
+/**--------Footer*/
+footer{
+  max-height: 50px;
+  display: flex;
+  background-color: var(--black-color);
+  color: white;
+  justify-content: space-between;
+}
+.contact-seccion h4{
+  padding: 1px;
+  margin: 3px;
+
 }
