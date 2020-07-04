@@ -1,0 +1,84 @@
+/* Variables Globales */
+:root{
+/*--- Colores */
+  --green-color:#27F108;
+  --black-color:#000000;
+/*--- Tipografia */
+  --normal: 12px;
+/*--- Espacio*/
+--space:10px;
+/*--- shadow*/
+--box: 0 0 2px rgb(112, 112, 112);
+
+}
+
+html, body {
+  padding: 0px;
+  margin: 0px;
+  font-size: var(--normal);
+  font-family: 'Open Sans', 'sans-serif';
+}
+/*------------------- nav bar*/
+nav {
+  display: flex;
+  background-color: var(--green-color);
+  padding: var(--space);
+  justify-content: space-between;
+}
+nav ul{
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+nav li {
+  border: 0.5px solid;
+  border-radius: 15px;
+  border-color: #426A0C;
+  list-style: none;
+  padding: var(--space);
+  margin-left: var(--space);
+
+}
+nav li a{
+  color: var(--black-color);
+  text-decoration: none;
+  padding: var(--space);
+  margin: 0px;
+
+}
+.brand_image img{
+ max-height: 35px; 
+}
+/*------------------ Main seccion*/
+.main-seccion{
+  padding: 5%;
+  padding-bottom: 15%;
+  text-align: center;
+  display: flex;
+  font-size: 17px;
+}
+.main-seccion .cat img{
+  max-height: 150px;
+}
+.products{
+  background-image: url('../imagenes/curva.png');
+  height: 200px;
+  background-size: cover;
+  background-position: center top;
+  padding-right: 20%;
+  padding-left: 20%;
+  display: flex;
+}
+.product .content{
+  background-color: white;
+  padding: 20px;
+  box-shadow: var(--box);
+}
+.product{
+  padding: var(--space);
+  margin-top: -150px;
+}
+.content-image{
+  max-height: 150px;
+  text-align: center;
+}
