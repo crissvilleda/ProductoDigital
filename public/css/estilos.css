@@ -24,6 +24,7 @@ html, body {
   font-size: var(--normal);
   -webkit-font-size: var(--normal);
   font-family: var(--font);
+  box-sizing: border-box;
 }
 /*------------------- nav bar*/
 nav {
@@ -76,12 +77,16 @@ footer h4{
 .main-seccion{
   padding: 5%;
   padding-bottom: 15%;
-  text-align: center;
-  display: flex;
   font-size: 17px;
 }
-.main-seccion .cat img{
+.content{
+  padding:5%;
+  display: flex;
+  text-align: center;
+}
+.content .cat img{
   max-height: 150px;
+  max-width: 150px;
 }
 .products{
   background-image: url('../imagenes/curva.png');

@@ -1,4 +1,7 @@
 @media (max-width:600px) {
+  .content{
+    display:inherit;
+  }
   .products{
     -webkit-display:inherit;
     display: inherit;
