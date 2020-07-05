@@ -1,9 +1,12 @@
 @media (max-width:600px) {
   .products{
+    -webkit-display:inherit;
     display: inherit;
+    -webkit-height:auto;
     height: auto;
   }
   .product{
+    -webkit-margin-top:auto;
     margin-top: auto;
   }
   .main-seccion{
