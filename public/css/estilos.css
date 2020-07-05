@@ -79,7 +79,7 @@ footer h4{
   padding-bottom: 15%;
   font-size: 17px;
 }
-.content{
+.main-seccion .content{
   padding:5%;
   display: flex;
   text-align: center;
