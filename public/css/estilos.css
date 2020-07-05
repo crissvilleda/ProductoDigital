@@ -75,16 +75,12 @@ footer h4{
 }
 /*------------------ Main seccion*/
 .main-seccion{
+  display: flex;
   padding: 5%;
   padding-bottom: 15%;
   font-size: 17px;
 }
-.main-seccion .content{
-  padding:5%;
-  display: flex;
-  text-align: center;
-}
-.content .cat img{
+.main-seccion .cat img{
   max-height: 150px;
   max-width: 150px;
 }
