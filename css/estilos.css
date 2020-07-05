@@ -53,6 +53,22 @@ nav li a{
 .brand_image img{
  max-height: 35px; 
 }
+/**--------Footer*/
+footer{
+  max-height: 50px;
+  display: flex;
+  background-color: var(--black-color);
+  color: white;
+  justify-content: space-between;
+}
+.contact-seccion h4{
+  padding: 1px;
+  margin: 5px;
+
+}
+footer h4{
+  margin-right: 5px;
+}
 /*------------------ Main seccion*/
 .main-seccion{
   padding: 5%;
@@ -87,16 +103,35 @@ nav li a{
   text-align: center;
 }
 
-/**--------Footer*/
-footer{
-  max-height: 50px;
+/*-----------Benefits*/
+.benefits{
   display: flex;
-  background-color: var(--black-color);
-  color: white;
-  justify-content: space-between;
-}
-.contact-seccion h4{
-  padding: 1px;
-  margin: 3px;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 5%;
 
+}
+.benefit{
+  padding: var(--space);
+  margin: var(--space);
+  text-align: center;
+  box-sizing: border-box;
+
+}
+/*-----------Recomendatios*/
+.recomendations{
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.title-recomendations h2{
+  text-align: center;
+  margin:auto;
+  max-width: 200px;
+}
+.recomendation{
+  padding: var(--space);
+  margin: var(--space);
+  text-align: center;
+  box-sizing: border-box;
 }

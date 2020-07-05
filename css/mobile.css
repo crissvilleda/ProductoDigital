@@ -12,5 +12,11 @@
   .main-seccion .cat{
     margin: auto;
   }
+  .benefits{
+    display: inherit;
+  }
+  .recomendations{
+    display: inherit;
+  }
 
 }
