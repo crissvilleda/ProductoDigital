@@ -13,11 +13,16 @@
     margin-top: auto;
   }
   .main-seccion{
-    padding: 4%;
+    display: flex;
+    padding: 5%;
     font-size: 12px;
   }
-  .main-seccion .cat{
+  .main-seccion h
+  .cat img{
     margin: auto;
+    max-height: 100px;
+    max-width: 100px;
+    
   }
   .benefits{
     display: inherit;

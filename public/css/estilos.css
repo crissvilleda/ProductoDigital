@@ -17,12 +17,9 @@
 }
 
 html, body {
-  -webkit-padding: 0px;
   padding: 0px;
   margin: 0px;
-  -webkit-margin: 0px;
   font-size: var(--normal);
-  -webkit-font-size: var(--normal);
   font-family: var(--font);
   box-sizing: border-box;
 }
