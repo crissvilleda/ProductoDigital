@@ -6,6 +6,8 @@
 /*--- Colores */
   --green-color:#27F108;
   --black-color:#000000;
+  --blue-color:#4B7AEA;
+  --border-color:#707070;
 /*--- Tipografia */
   --normal: 12px;
 /*--- Espacio*/
@@ -103,7 +105,16 @@ footer h4{
   max-height: 150px;
   text-align: center;
 }
-
+.btn-comprar button{
+  width: 100%;
+  height: 25px;
+  background: var(--blue-color);
+  text-align: center;
+  color: white;
+  border: 1px solid;
+  border-radius: 10px;
+  border-color: var(--border-color);
+}
 /*-----------Benefits*/
 .benefits{
   display: flex;
