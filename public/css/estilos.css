@@ -23,7 +23,6 @@ html, body {
   margin: 0px;
   font-size: var(--normal);
   font-family: var(--font);
-  box-sizing: border-box;
 }
 /*------------------- nav bar*/
 nav {
