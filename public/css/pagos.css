@@ -1,0 +1,40 @@
+:root{
+  --border-color:#707070;
+  --blue-color:#4B7AEA;
+}
+.container{
+  margin-top: 10%;
+  margin-bottom: 15%;
+}
+.form-model input{
+  box-sizing: border-box;
+  max-width: 300px;
+}
+.data{
+  margin-top: 5px;
+  font-size: 17px;
+  width: 100%;
+  border: 1px solid var(--border-color);
+  border-radius: 15px;
+}
+.btn-pago{
+  color: white;
+  background-color: var(--blue-color);
+  font-size: 17px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  border-color: var(--border-color);
+  border-radius: 15px;
+}
+.imagen{
+  text-align: right;
+}
+@media (max-width:600px){
+  .imagen{
+    text-align: center;
+  }
+  .form-model{
+    text-align: center;
+  }
+}
