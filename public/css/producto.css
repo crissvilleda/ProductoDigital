@@ -5,6 +5,9 @@
 .imagen{
   text-align: center;
 }
+.container .row h2{
+  margin-left: 15px;
+}
 @media (max-width:600px){
   .row{
     display: flex;
